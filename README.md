@@ -1,13 +1,13 @@
-<h1 align="center">
+<!-- <h1 align="center">
   <br>
   <a href="http://gregsithole.com">
   <img src="./src/assets/light-logo.svg" alt="Srinivas" width="200"></a>
   <br>
-  Greg Sithole's Personal Website
+ Srinivas Gollapalli's Personal Website
   <br>
 </h1>
 
-<h4 align="center">A simple personal website about <a href="http://gregsithole.com" target="_blank">srinivas</a>.</h4>
+<h4 align="center">A simple personal website about <a href="" target="_blank">srinivas</a>.</h4>
 
 <br>
 
@@ -64,4 +64,4 @@ MIT
 
 > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
 > GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant) -->
+> Twitter [@amit_merchant](https://twitter.com/amit_merchant) --> -->
