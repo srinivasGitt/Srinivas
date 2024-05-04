@@ -27,24 +27,36 @@ const Contact = (props) => {
             message,
         };
 
+        // emailjs
+        //     .send(
+        //         'service_i2smxyf',
+        //         'template_b0r7eej',
+        //         data,{
+        //             publicKey:'BXj28L1U35FCCrM7e',
+        //         }
+        //         // process.env.REACT_APP_EMAILJS_PUBLIC_API
+        //     )
+        //     .then(
+        //         (result) => {
+        //             setLoading(false);
+        //             toast.success(`Successfully sent email.`);
+        //         },
+        //         (error) => {
+        //             setLoading(false);
+        //             console.log(error);
+        //             toast.error(error.text);
+        //         }
+        //     );
         emailjs
-            .send(
-                process.env.REACT_APP_EMAILJS_SERVICE_ID,
-                process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-                data,
-                process.env.REACT_APP_EMAILJS_PUBLIC_API
-            )
-            .then(
-                (result) => {
-                    setLoading(false);
-                    toast.success(`Successfully sent email.`);
-                },
-                (error) => {
-                    setLoading(false);
-                    console.log(error);
-                    toast.error(error.text);
-                }
-            );
+      .send('service_i2smxyf', 'template_b0r7eej', data,'BXj28L1U35FCCrM7e')
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
     };
 
     return (

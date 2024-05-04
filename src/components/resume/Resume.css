@@ -15,10 +15,14 @@
   background-color: var(--container-color);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .tab__panel.is-active {
   display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
 .tab__panel-list li {

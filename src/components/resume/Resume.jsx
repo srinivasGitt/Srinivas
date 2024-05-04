@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Button from "./Button";
 
 import WorkExperience from "./WorkExperience";
+import Education from "./Education";
 
 const Resume = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -49,6 +50,7 @@ const Resume = () => {
                     })}
                 </Tabs>
             </div>
+            <Education/>
         </section>
     );
 };

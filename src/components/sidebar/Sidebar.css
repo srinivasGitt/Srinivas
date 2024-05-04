@@ -57,6 +57,7 @@ aside {
   z-index: 1;
   transition: 0.3s;
   font-size: 1rem;
+  opacity: 0;
 }
 
 [data-theme="dark"] .nav__toggle {
@@ -74,6 +75,7 @@ aside {
 
   .nav__toggle {
     display: flex;
+    opacity: 1;
   }
 
   .nav__toggle-open {

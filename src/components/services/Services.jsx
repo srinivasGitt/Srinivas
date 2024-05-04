@@ -8,24 +8,25 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "Responsive design",
+        title: "Angular Application",
         description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+        "I specialize in Angular services, providing comprehensive solutions encompassing component architecture, routing, state management, HTTP interactions, and custom directives to optimize the performance, scalability, and user experience of your web applications.",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "React Application",
         description:
-            "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
+        "I provide advanced React services, leveraging cutting-edge techniques in component-based architecture, state management with Redux or Context API, efficient routing with React Router, optimized HTTP requests with Axios or Fetch, and custom hook development to elevate the performance, scalability, and user experience of your web applications.",
     },
     {
         id: 3,
         image: Image3,
-        title: "Mobile Development",
+        title: "Nodejs",
         description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+        "I deliver top-tier Node.js services, harnessing the power of asynchronous JavaScript, Express.js for robust server-side architecture, database integration with MongoDB or SQL databases, RESTful API development, WebSocket implementation for real-time communication, and scalable deployment solutions to propel your applications to new heights of performance and reliability.",
     },
+
 ];
 
 const Services = () => {
